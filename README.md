@@ -5,12 +5,14 @@ A reactive wrapper for [Intercom's](https://www.intercom.com/) [JavaScript API](
 ## Installation
 
 ```bash
-npm install --save vue-intercom
+npm install --save @charminder/vue-intercom
+
+yarn add @charminder/vue-intercom
 ```
 
 ```javascript
 import Vue from 'vue';
-import VueIntercom from 'vue-intercom';
+import VueIntercom from '@charminder/vue-intercom';
 
 Vue.use(VueIntercom, { appId: 'your-app-id' });
 ```
