@@ -1,6 +1,6 @@
 {
   "name": "@charminder/vue-intercom",
-  "version": "1.0.14",
+  "version": "2.0.0",
   "description": "An Intercom plugin for Vue.js",
   "contributors": [
     "Tyrone Tudehope <tyronetudehope@gmail.com>"
