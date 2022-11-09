@@ -9,7 +9,7 @@
   "main": "dist/vue-intercom.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnnynotsolucky/vue-intercom.git"
+    "url": "git+https://github.com/charminder/vue-intercom.git"
   },
   "scripts": {
     "build": "rollup -c && uglifyjs -c -o dist/vue-intercom.min.js dist/vue-intercom.js",
@@ -70,9 +70,9 @@
     "npm": ">= 3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/johnnynotsolucky/vue-intercom/issues"
+    "url": "https://github.com/charminder/vue-intercom/issues"
   },
-  "homepage": "https://github.com/johnnynotsolucky/vue-intercom#readme",
+  "homepage": "https://github.com/charminder/vue-intercom#readme",
   "directories": {
     "example": "example",
     "test": "test"
