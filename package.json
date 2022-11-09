@@ -1,5 +1,5 @@
 {
-  "name": "vue-intercom",
+  "name": "@my-username/vue-intercom",
   "version": "1.0.14",
   "description": "An Intercom plugin for Vue.js",
   "contributors": [
@@ -7,7 +7,10 @@
   ],
   "license": "MIT",
   "main": "dist/vue-intercom.js",
-  "repository": "johnnynotsolucky/vue-intercom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnynotsolucky/vue-intercom.git"
+  },
   "scripts": {
     "build": "rollup -c && uglifyjs -c -o dist/vue-intercom.min.js dist/vue-intercom.js",
     "unit": "karma start test/unit/karma.conf.js --watch",
@@ -65,5 +68,14 @@
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/johnnynotsolucky/vue-intercom/issues"
+  },
+  "homepage": "https://github.com/johnnynotsolucky/vue-intercom#readme",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "author": ""
 }
