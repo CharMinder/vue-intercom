@@ -105,6 +105,11 @@ Calls `Intercom('showNewMessage')` with pre-populated content if provided.
 
 Calls `Intercom('trackEvent')` with extra metadata if provided.
 
+#### `$intercom.showArticle(articleId)`
+
+Calls `Intercom('showArticle', article)`.
+
+
 #### `$intercom.getVisitorId()`
 
 Calls `Intercom('getVisitorId')`.

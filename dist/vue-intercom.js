@@ -73,6 +73,7 @@ var init = function (ref) {
 
     return callIntercom.apply(void 0, [ 'update' ].concat( options ));
   };
+  intercom.showArticle = function (articleId) { return callIntercom('showArticle', articleId); };
   intercom.show = function () { return callIntercom('show'); };
   intercom.hide = function () { return callIntercom('hide'); };
   intercom.showMessages = function () { return callIntercom('showMessages'); };
