@@ -2,6 +2,8 @@
 
 A reactive wrapper for [Intercom's](https://www.intercom.com/) [JavaScript API](https://developers.intercom.com/docs/intercom-javascript)
 
+Forked in order to add the showArticle command.
+
 ## Installation
 
 ```bash
